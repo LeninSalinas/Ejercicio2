@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicio_1._2.MainPage">
+
+    <StackLayout Margin="30, 20" Padding="20">
+         <Label Text="Nombre" />
+        <Entry x:Name="Nombres" MaxLength="100"/>
+            <Label Text="Apellidos"/>
+            <Entry x:Name="Apellidos" MaxLength="100"/>
+            <Label Text="Edad"/>
+            <Entry x:Name="Edad" MaxLength="100"/>
+            <Label Text="Correo Electronico"/>
+        <Entry x:Name="Correo" MaxLength="100"/>
+        <Button Text="Enviar informacion" Clicked="Button_Clicked" BackgroundColor="Blue" Margin="30"/>
+    </StackLayout>
+
+</ContentPage>
